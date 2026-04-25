@@ -19,7 +19,7 @@ jobs:
       - name: Install and Build
         # 运行的命令，这里包含两条，npm i 和npm run build
         run: |
-          npm i
+          npm install
           npm run build
           
       # 步骤3，部署静态资源
